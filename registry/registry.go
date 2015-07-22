@@ -13,7 +13,7 @@ import (
 	
 	"github.com/mailgun/vulcand/plugin/trace"
 	
-	"github.com/octoblu/vulcand-proxy-backend/backend"
+	"github.com/octoblu/vulcand-proxy-backend/backendheader"
 	
 )
 
@@ -32,7 +32,7 @@ func GetRegistry() (*plugin.Registry, error) {
        
 		trace.GetSpec(),
        
-		backend.GetSpec(),
+		backendheader.GetSpec(),
        
 	}
 
