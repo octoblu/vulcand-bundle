@@ -22,4 +22,5 @@ sloccount:
 	 find . -name "*.go" -print0 | xargs -0 wc -l
 
 install: clean
-	go install github.com/mailgun/vulcand/vctl
+	go get github.com/mailgun/log
+	go build -o ${GOPATH}/bin/vctl

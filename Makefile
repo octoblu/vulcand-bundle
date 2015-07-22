@@ -57,7 +57,7 @@ sloccount:
 	 find . -path ./Godeps -prune -o -name "*.go" -print0 | xargs -0 wc -l
 
 install: clean
-	go install github.com/mailgun/vulcand
+	go build -o ${GOPATH}/bin/vulcand
 	cd vctl && $(MAKE) install && cd ..
 	cd vbundle && $(MAKE) install && cd ..
 
