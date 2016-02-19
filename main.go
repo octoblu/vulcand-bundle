@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/vulcand/vulcand/service"
-	"github.com/octoblu/vulcand-bundle/registry"
 	"os"
+
+	"github.com/octoblu/vulcand-bundle/registry"
+	"github.com/vulcand/vulcand/service"
 )
 
 func main() {
