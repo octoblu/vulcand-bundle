@@ -22,3 +22,6 @@ _testmain.go
 *.exe
 *.test
 *.prof
+vulcand
+entrypoint/vulcand
+vctl/vctl
