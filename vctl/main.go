@@ -1,10 +1,11 @@
 package main
 
 import (
-    log "github.com/Sirupsen/logrus"
-	"github.com/vulcand/vulcand/vctl/command"
-	"github.com/octoblu/vulcand-bundle/registry"
 	"os"
+
+	log "github.com/Sirupsen/logrus"
+	"github.com/octoblu/vulcand-bundle/registry"
+	"github.com/vulcand/vulcand/vctl/command"
 )
 
 func main() {
