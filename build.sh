@@ -13,7 +13,6 @@ build_on_local() {
 }
 
 copy() {
-  cp $TMP_DIR/$APP_NAME .
   cp $TMP_DIR/$APP_NAME entrypoint/
 }
 

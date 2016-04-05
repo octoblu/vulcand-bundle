@@ -1,6 +1,7 @@
 .git
 ./vulcand
 ./entrypoint/vulcand
+./entrypoint-vctl/vctl
 ./vctl/vctl
 ./tmp/
 ./vulcand-bundle

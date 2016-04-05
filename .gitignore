@@ -24,6 +24,7 @@ _testmain.go
 *.prof
 ./vulcand
 ./entrypoint/vulcand
+./entrypoint-vctl/vctl
 vctl/vctl
 tmp
 ./vulcand-bundle
