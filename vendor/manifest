@@ -30,6 +30,30 @@
 			"notests": true
 		},
 		{
+			"importpath": "github.com/coreos/etcd/client",
+			"repository": "https://github.com/coreos/etcd",
+			"revision": "01c303113d0a3d5a8075864321c3aedb72035bdd",
+			"branch": "master",
+			"path": "/client",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/coreos/etcd/pkg/pathutil",
+			"repository": "https://github.com/coreos/etcd",
+			"revision": "01c303113d0a3d5a8075864321c3aedb72035bdd",
+			"branch": "master",
+			"path": "/pkg/pathutil",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/coreos/etcd/pkg/types",
+			"repository": "https://github.com/coreos/etcd",
+			"revision": "01c303113d0a3d5a8075864321c3aedb72035bdd",
+			"branch": "master",
+			"path": "/pkg/types",
+			"notests": true
+		},
+		{
 			"importpath": "github.com/garyburd/redigo/internal",
 			"repository": "https://github.com/garyburd/redigo",
 			"revision": "4ed1111375cbeb698249ffe48dd463e9b0a63a7a",
@@ -86,6 +110,14 @@
 			"notests": true
 		},
 		{
+			"importpath": "github.com/ugorji/go/codec",
+			"repository": "https://github.com/ugorji/go",
+			"revision": "a396ed22fc049df733440d90efe17475e3929ccb",
+			"branch": "master",
+			"path": "/codec",
+			"notests": true
+		},
+		{
 			"importpath": "github.com/vulcand/predicate",
 			"repository": "https://github.com/vulcand/predicate",
 			"revision": "cb0bff91a7ab7cf7571e661ff883fc997bc554a3",
@@ -104,6 +136,14 @@
 			"repository": "https://github.com/vulcand/vulcand",
 			"revision": "475540bb016702d5b7cc4674e37f48ee3e144a69",
 			"branch": "HEAD",
+			"notests": true
+		},
+		{
+			"importpath": "golang.org/x/net/context",
+			"repository": "https://go.googlesource.com/net",
+			"revision": "318395d8b12f5dd0f1b7cd0fbb95195f49acb0f9",
+			"branch": "master",
+			"path": "/context",
 			"notests": true
 		}
 	]
